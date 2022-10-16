@@ -1,3 +1,165 @@
-/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+body {
+    background-color: #dfd3c3 ;
+    color: #222831;
+    font-size: 20px;
+    font-family: 'Noto Serif Telugu', serif;
+    line-height: 1.5;
+    margin: 0px;
+    
+}
+
+.panicka {
+    background-color:  #c7b198;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    
+}
+
+
+.domov {
+    background-color:  #c7b198;
+   
+}
+
+
+h2 {
+    color: #543a3a;
+    font-family: 'Noto Serif Telugu', serif;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: left;
+    margin: 0px;
+    margin-left: 200px;
+    font-family: 'Noto Serif Telugu', serif;
+    color: #c7b198;
+}
+
+h2 {
+    font-size:40px ;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #543a3a;
+}
+
+.menu li {
+    display: inline-block;
+
+}
+
+.menu a {
+    color: #c7b198;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #876464;
+}
+
+.foto-panicka {
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: -40px;
+}
+
+body img {
+    width: 350px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+
+.omne {
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+
+.domov p,
+.kamaradi p {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.domov img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.hlavicka {
+    background-image: url(louka_11zon.jpg);
+    padding: 150px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+    padding: 0 20px;
+}
+
+.jedna img {
+    float: left;
+    width: 250px;
+    padding-right: 20px;
+    border-radius: 0 50px 50px 50px;
+    
+}
+
+.jedna {
+    padding-bottom: 50px;
+    
+}
+
+.dva img {
+    float: right;
+    width: 250px;
+    padding-right: 20px;
+    border-radius: 50px 0 50px 50px;
+    
+}
+
+.dva {
+    padding-bottom: 50px;
+}
+
+.tri img {
+    float: left;
+    width: 250px;
+    padding-right: 20px;
+    border-radius: 0 50px 50px 50px;
+}
+
+.tri {
+    padding-bottom: 50px;
+}
+
+.jedna p {
+    padding-right: 400px;
+    padding-top: 220px;
+}
+
+.dva p {
+    padding-left: 400px;
+    padding-top: 220px;
+}
+
+.tri p {
+    padding-right: 400px;
+    padding-top: 220px;
+}
